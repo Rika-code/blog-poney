@@ -10,7 +10,7 @@ function Contact () {
         <Header/>
         <div className="contactdiv">
                 <h2>Formulaire de Contact</h2>
-                <form action="/ma-page-de-traitement" method="post" onSubmit={handleSubmit}>
+                <form onSubmit={handleSubmit}>
                     <ul>
                         <li className='contactForm'>
                         <label for="name">Nom&nbsp;:</label>
