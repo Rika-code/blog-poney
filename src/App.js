@@ -1,9 +1,9 @@
 import './App.css';
 import { BrowserRouter, Routes, Route} from "react-router-dom";
-import Home from "./Home"
-import Poneys from "./Poneys"
-import Contact from "./Contact"
-import Apropos from './Apropos';
+import Home from "./page/Home"
+import Poneys from "./page/Poneys"
+import Contact from "./page/Contact"
+import Apropos from './page/Apropos';
 
 function App() {
   return (
