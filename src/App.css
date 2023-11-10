@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header {
+  display: flex;
+  justify-content:space-between;
+  background-color: paleturquoise;
+  align-items: center;
+ 
+}
+
+.headerh1 {
+ margin-left: 10%;
+ color: pink;
+}
+.headerImg {
+  width: 10%;
+  height: auto;
+  
+}
+.headerul1 {
+  display: flex;
+  list-style-type: none;
+  gap: 60px;
+  display: inline-flex;
+  
+}
+
+.mainHome{
+  text-align: center;
+  background-image: url("https://static.vecteezy.com/ti/vecteur-libre/p1/27546521-sauvage-ouest-mode-style-bottes-fer-a-cheval-etoiles-cactus-chapeau-vecteur-colore-sans-couture-modele-arriere-plans-fonds-d-ecran-vectoriel.jpg");
+  background-size: cover;
+  padding: 15px;
+}
+.poneysul {
+  list-style-type: none;
+}
+ 
+.homeImg {
+  width: 10%;
+  height: auto;
+}
+.poneysOrigin{
+  text-align: center;
+  background-color: palegoldenrod;
+}
+
+.poneysImg {
+  width: 10%;
+  height: auto;
+}
+
+.contactdiv {
+  text-align: center;
+  background-color: peachpuff;
+  padding: 10px;
+}
+.aproposdiv{
+  text-align: center;
+  background-color: palegreen;
+  padding: 15px;
+}
+
+.footerOrigin {
+  text-align: center;
+  background-image: url("https://media.istockphoto.com/id/1297964981/fr/photo/respirer.jpg?s=612x612&w=0&k=20&c=-3dz7DTOsdj2O6SfFXjgPh5FzMJPc4hu1Ag67gUnhNY=");
+ padding: 6%;
+ font-size: x-large;
+ color: rgb(236, 100, 100);
+ font-weight: bold;
+}
