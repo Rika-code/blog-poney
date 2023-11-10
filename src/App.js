@@ -4,6 +4,7 @@ import Home from "./page/Home"
 import Poneys from "./page/Poneys"
 import Contact from "./page/Contact"
 import Apropos from './page/Apropos';
+import PoneyTalk from './page/PoneyTalk';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Route path ="/contact" element={<Contact/>}/>
       <Route path ="/poneys" element={<Poneys/>}/>
       <Route path ="/Apropos" element={<Apropos/>}/>
+      <Route path ="/Talk" element={<PoneyTalk/>}/>
     </Routes>
   
   

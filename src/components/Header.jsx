@@ -19,6 +19,10 @@ function Header () {
                 <li>
                 <Link to ="/apropos">A Propos</Link>
                 </li>
+
+                <li>
+                    <Link to ="/talk">Pony Talk</Link>
+                </li>
             </ul>
         </nav>
 </header>   
